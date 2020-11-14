@@ -61,6 +61,6 @@ jobs:
           cd manukyan
           docker-compose --no-ansi pull
           docker-compose --no-ansi up -d
-      host: ${{ secrets.SSH_HOST }}
-      user: student
-      key: ${{ secrets.SSH_PASSWORD}}
+        host: ${{ secrets.SSH_HOST }}
+        user: student
+        pass: ${{ secrets.SSH_PASSWORD}}
