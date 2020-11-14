@@ -9,6 +9,10 @@ def hello_world():
 def v2():
     return 'Second action'
 
+@app.route('/v3')
+def v3():
+    return 'Third action'
+
 @app.route('/manukyan')
 def manukyan():
     return 'Hello from CI with GitHub Actions by Manukyan'
